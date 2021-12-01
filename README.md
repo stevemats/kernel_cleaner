@@ -1,9 +1,13 @@
 # Fedora Kernel Cleaner
 A quick, safe and easy way to remove old kernels on fedora while rataining the latest kernel upgrade if you have a limited disk space.
 
+After fedora upgrade, upon an OS restart you're usually prompted with a screen as one below with other old kernels which for some reasons you might choose to remove:
+
 ![old kernels](https://user-images.githubusercontent.com/30528167/144319777-25bfe796-8148-4d79-9a84-5c4987fcb6a3.jpg)
 
-## Usage
+If you haven't upgraded your fedora to the latest stable version out of fear of losing data, refer to this guide -> [Upgrading Fedora](docs/FedoraUpgrade.md)
+
+## Kernel Cleaner Usage:
 
 ### Step 1: Open terminal and type below command to become root user
 
