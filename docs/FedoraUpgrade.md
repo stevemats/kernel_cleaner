@@ -1,8 +1,8 @@
 # Upgrading Fedora Using DNF
 
-## Below are Safe Steps to use in order to upgrade your Fedora to the latest stable version.We are going to upgrade the system using DNF plugin called dnf-plugin-system-upgrade. 
+### Below are Safe Steps to use in order to upgrade your Fedora to the latest stable version.We are going to upgrade the system using DNF plugin called dnf-plugin-system-upgrade. 
 
-## Let's get started:
+### Let's get started:
 
 ### Step 1: Open Terminal and Run Below Command:
 

@@ -5,7 +5,7 @@ After fedora upgrade, upon an OS restart you're usually prompted with a screen a
 
 ![old kernels](https://user-images.githubusercontent.com/30528167/144319777-25bfe796-8148-4d79-9a84-5c4987fcb6a3.jpg)
 
-If you haven't upgraded your fedora to the latest stable version out of fear of losing data, refer to this guide -> [Upgrading Fedora](docs/FedoraUpgrade.md)
+If you haven't upgraded your fedora to the latest stable version out of fear of losing data, refer to this guide -> [Upgrading Fedora](docs/FedoraUpgrade.md). If you don't have fedora OS, use this link to get one -> [Download Fedora](https://getfedora.org/)
 
 ## Kernel Cleaner Usage:
 
