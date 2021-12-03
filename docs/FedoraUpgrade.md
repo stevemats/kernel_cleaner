@@ -1,26 +1,30 @@
-# Upgrading Fedora Using DNF
+# Upgrading Fedora To The Latest Version Using DNF
 
-### Below are Safe Steps to use in order to upgrade your Fedora to the latest stable version.We are going to upgrade the system using DNF plugin called dnf-plugin-system-upgrade. 
+## Description
 
-### Let's get started:
+This a how-to step by step of how a Fedora user can safely upgrade his OS version from one version to another supported stable version.
 
-### Step 1: Open Terminal and Run Below Command:
+The upgrade will rely on a Dandified yum plugin known as dnf-plugin-system-upgrade.
 
-`` $ sudo dnf update ``
+## Let's get started:
+
+### Step 1: Open Terminal and Run the Command Below:
+
+`$ sudo dnf update`
 
 then
 
-`` $ sudo dnf upgrade --refresh `` (press `y` on all prompts & wait)
+`$ sudo dnf upgrade --refresh` (press `y` on all prompts & wait)
 
-then reboot your machine and proceed to next step:
+then afterwards reboot your machine and proceed to the next step:
 
 ### Step 2: Install this DNF sys upgrader plugin (dnf-plugin-system-upgrade) with below command:
 
-``$ sudo dnf install dnf-plugin-system-upgrade `` (press `y` on all prompts & wait)
+`$ sudo dnf install dnf-plugin-system-upgrade ` (press `y` on all prompts & wait)
 
 ### Step 3: Upgrade system with below command. Replacing --releasever=35 with last stable version or a different version of your choice e.g -- releasever=36:
 
-`` $ sudo dnf system-upgrade download --refresh --allowerasing --releasever=35 --nogpgcheck `` 
+`$ sudo dnf system-upgrade download --refresh --allowerasing --releasever=35 --nogpgcheck`
 
 (also press `y` on all prompts & wait)
 
@@ -28,5 +32,4 @@ then reboot your machine and proceed to next step:
 
 ### You can finally verify the version on terminal with below command:
 
-`` $ cat /etc/fedora-release ``
-
+`$ cat /etc/fedora-release`
