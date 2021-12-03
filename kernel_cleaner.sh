@@ -11,5 +11,5 @@ if ! dnf remove "${old_kernels[@]}"; then
     exit 1
 fi
 
-echo "Removed old kernels"
+echo "Old kernels have been successfully removed"
 exit 0

@@ -3,8 +3,6 @@ A quick, safe and easy way to remove old kernels on fedora while rataining the l
 
 After fedora upgrade, upon an OS restart you're usually prompted with a screen as one below with other old kernels which for some reasons you might choose to remove:
 
-![old kernels](https://user-images.githubusercontent.com/30528167/144319777-25bfe796-8148-4d79-9a84-5c4987fcb6a3.jpg)
-
 If you haven't upgraded your fedora to the latest stable version out of fear of losing data, refer to this guide -> [Upgrading Fedora](docs/FedoraUpgrade.md). If you don't have fedora OS, use this link to get one -> [Download Fedora](https://getfedora.org/)
 
 ## Kernel Cleaner Usage:
@@ -25,11 +23,11 @@ If you haven't upgraded your fedora to the latest stable version out of fear of 
 
 ``$ cd kernel_cleaner``
 
-### Final Step 4: Now run the old kernel remover with below commands:
+### Final Step 4: Make cleaner executable for only root user:
 
-`` $ chmod 777 kernel_cleaner.sh ``
+`` $ chmod u+x kernel_cleaner.sh ``
 
-### Then: 
+### Then remove old kernels: 
 
 ``$ ./kernel_cleaner.sh ``
 
